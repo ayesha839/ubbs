@@ -89,7 +89,7 @@ const FeaturedProjects = () => {
               {["Residential", "Hospitality", "Commercial", "Retail"].map(
                 (category) => (
                   <Link href="#" key={category}>
-                    <div className="text-black border border-[rgba(49,45,43,0.65)] rounded-full flex justify-center items-center mr-2 mb-2 px-2.5 py-1 font-nunito-sans text-[1em] font-light leading-[1.2em] no-underline transition-all duration-200 hover:text-white hover:bg-[#B5ABA1] hover:border-none">
+                    <div className="text-black border border-[rgba(49,45,43,0.65)] rounded-full flex justify-center items-center mr-2 mb-2 px-2.5 py-1  text-[1em] font-light leading-[1.2em] no-underline transition-all duration-200 hover:text-white hover:bg-[#B5ABA1] hover:border-none">
                       {category}
                     </div>
                   </Link>

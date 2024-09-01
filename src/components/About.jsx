@@ -40,7 +40,7 @@ const About = () => {
       <div className="w-full flex flex-col md:flex-row md:gap-[120px] items-center">
         <div className="flex flex-col gap-4 w-full md:w-1/2">
           <h1
-            className={`text-black mt-0 mb-0 font-nunito-sans text-[3.425em] font-normal leading-[1.2em] transition-all duration-1000 ${
+            className={`text-black mt-0 mb-0  text-[3.425em] font-normal leading-[1.2em] transition-all duration-1000 ${
               isTitleVisible
                 ? "animate-slide-in-left"
                 : "opacity-0 translate-x-[-50px]"
@@ -48,7 +48,7 @@ const About = () => {
           >
             About
           </h1>
-          <p className="text-black mb-0 font-nunito-sans text-[13px] font-light">
+          <p className="text-black mb-0 text-[13px] font-light">
             UBBS is vastly experienced at working across sectors – Residential,
             Hospitality and Commercial, and across disciplines – Architecture
             and Interior Design. We offer a multifaceted, entirely bespoke
@@ -58,7 +58,7 @@ const About = () => {
             particular on new-build projects.
           </p>
           <div className="mt-8 hover-underline">
-            <Link href="#" className="text-black font-nunito-sans text-[13px]">
+            <Link href="#" className="text-black  text-[13px]">
               MEET THE TEAM
             </Link>
             <div className="w-[105px] bg-black h-[1px]"></div>

@@ -1,4 +1,3 @@
-import { nunitoSans } from "@/app/layout";
 import Link from "next/link";
 import React from "react";
 
@@ -10,7 +9,7 @@ const Navbar = () => {
         background: "linear-gradient(rgba(15, 15, 15, 0.7), rgba(0, 0, 0, 0))",
       }}
     >
-      <div className={`hidden lg:flex space-x-8 tracking-widest ${nunitoSans}`}>
+      <div className={`hidden lg:flex space-x-8 tracking-widest`}>
         <Link href="#" className="relative hover-underline">
           PROJECTS
         </Link>

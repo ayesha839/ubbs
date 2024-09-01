@@ -26,7 +26,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={nunitoSans.className}>
+      <body>
         <Navbar/>
         <Herosection/>
         <About/>

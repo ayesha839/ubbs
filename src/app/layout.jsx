@@ -1,4 +1,3 @@
-import { Inter, Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import Herosection from "@/components/Herosection";
 import Navbar from "@/components/Navbar";
@@ -11,12 +10,7 @@ import LatestInsight from "@/components/LatestInsight";
 import Schedulesection from "@/components/Schedulesection";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
-const nunitoSans = Nunito_Sans({
-  subsets: ["latin"],
-  weight: ["200", "300", "400", "500", "600", "700", "800"],
-  variable: "--font-nunito-sans",
-});
+
 
 export const metadata = {
   title: "Create Next App",
